@@ -33,6 +33,10 @@ This repository contains scripts, notes, and projects created while learning Apa
 - LinkedIn Learning course link: https://www.linkedin.com/learning/learning-apache-airflow/
 - Apache Airflow documentation: [https://airflow.apache.org/](https://airflow.apache.org/)
 
+## certificate
+
+- https://github.com/madhuroopa/linkedin-learning-airflow-course/blob/main/certificate/CertificateOfCompletion_Learning%20Apache%20Airflow.pdf
+
 ## Keywords
 
 Apache Airflow, workflow management, data engineering, ETL, LinkedIn Learning, Janani Ravi
