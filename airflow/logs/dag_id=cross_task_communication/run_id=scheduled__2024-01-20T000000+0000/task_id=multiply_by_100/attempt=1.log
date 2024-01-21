@@ -1,0 +1,24 @@
+[2024-01-20T16:00:37.984-0800] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cross_task_communication.multiply_by_100 scheduled__2024-01-20T00:00:00+00:00 [queued]>
+[2024-01-20T16:00:38.001-0800] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cross_task_communication.multiply_by_100 scheduled__2024-01-20T00:00:00+00:00 [queued]>
+[2024-01-20T16:00:38.001-0800] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2024-01-20T16:00:38.002-0800] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2024-01-20T16:00:38.002-0800] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2024-01-20T16:00:38.035-0800] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): multiply_by_100> on 2024-01-20 00:00:00+00:00
+[2024-01-20T16:00:38.041-0800] {standard_task_runner.py:55} INFO - Started process 31284 to run task
+[2024-01-20T16:00:38.048-0800] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'cross_task_communication', 'multiply_by_100', 'scheduled__2024-01-20T00:00:00+00:00', '--job-id', '70', '--raw', '--subdir', 'DAGS_FOLDER/cross_task_communication.py', '--cfg-path', '/tmp/tmpgpoyp5ih']
+[2024-01-20T16:00:38.050-0800] {standard_task_runner.py:83} INFO - Job 70: Subtask multiply_by_100
+[2024-01-20T16:00:38.145-0800] {task_command.py:389} INFO - Running <TaskInstance: cross_task_communication.multiply_by_100 scheduled__2024-01-20T00:00:00+00:00 [running]> on host Mittu.
+[2024-01-20T16:00:38.262-0800] {taskinstance.py:1516} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=madhu
+AIRFLOW_CTX_DAG_ID=cross_task_communication
+AIRFLOW_CTX_TASK_ID=multiply_by_100
+AIRFLOW_CTX_EXECUTION_DATE=2024-01-20T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-01-20T00:00:00+00:00
+[2024-01-20T16:00:38.273-0800] {logging_mixin.py:137} INFO - Value 2!
+[2024-01-20T16:00:38.274-0800] {python.py:177} INFO - Done. Returned value was: 200
+[2024-01-20T16:00:38.307-0800] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=cross_task_communication, task_id=multiply_by_100, execution_date=20240120T000000, start_date=20240121T000037, end_date=20240121T000038
+[2024-01-20T16:00:38.341-0800] {local_task_job.py:212} INFO - Task exited with return code 0
+[2024-01-20T16:00:38.375-0800] {taskinstance.py:2596} INFO - 1 downstream tasks scheduled from follow-on schedule check

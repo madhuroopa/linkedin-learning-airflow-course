@@ -1,0 +1,70 @@
+[2024-01-19T19:37:47.012-0800] {processor.py:153} INFO - Started process (PID=10641) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:37:47.014-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-01-19T19:37:47.014-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:37:47.014-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:37:47.017-0800] {processor.py:755} WARNING - No viable dags retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:37:47.026-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.018 seconds
+[2024-01-19T19:38:33.100-0800] {processor.py:153} INFO - Started process (PID=10707) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:38:33.124-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-01-19T19:38:33.127-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:38:33.126-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:38:33.132-0800] {processor.py:755} WARNING - No viable dags retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:38:33.143-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.050 seconds
+[2024-01-19T19:39:17.512-0800] {processor.py:153} INFO - Started process (PID=10758) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:39:17.514-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-01-19T19:39:17.515-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:39:17.515-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:39:17.516-0800] {processor.py:755} WARNING - No viable dags retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:39:17.525-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.018 seconds
+[2024-01-19T19:40:05.872-0800] {processor.py:153} INFO - Started process (PID=10816) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:40:05.894-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-01-19T19:40:05.894-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:40:05.894-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:40:05.896-0800] {processor.py:755} WARNING - No viable dags retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:40:05.905-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.036 seconds
+[2024-01-19T19:40:50.706-0800] {processor.py:153} INFO - Started process (PID=10858) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:40:50.707-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-01-19T19:40:50.708-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:40:50.708-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:40:50.709-0800] {processor.py:755} WARNING - No viable dags retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:40:50.717-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.015 seconds
+[2024-01-19T19:41:42.264-0800] {processor.py:153} INFO - Started process (PID=10902) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:41:42.298-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-01-19T19:41:42.299-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:41:42.298-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:41:42.300-0800] {processor.py:755} WARNING - No viable dags retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:41:42.364-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.103 seconds
+[2024-01-19T19:42:41.422-0800] {processor.py:153} INFO - Started process (PID=10951) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:42:41.449-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-01-19T19:42:41.451-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:42:41.450-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:42:41.456-0800] {processor.py:755} WARNING - No viable dags retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:42:41.489-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.084 seconds
+[2024-01-19T19:43:39.482-0800] {processor.py:153} INFO - Started process (PID=11001) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:43:39.485-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-01-19T19:43:39.487-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:43:39.487-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:43:39.491-0800] {processor.py:755} WARNING - No viable dags retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:43:39.502-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.024 seconds
+[2024-01-19T19:44:24.208-0800] {processor.py:153} INFO - Started process (PID=11039) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:44:24.210-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-01-19T19:44:24.211-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:44:24.211-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:44:24.214-0800] {processor.py:755} WARNING - No viable dags retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:44:24.230-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.026 seconds
+[2024-01-19T19:45:08.765-0800] {processor.py:153} INFO - Started process (PID=11081) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:45:08.785-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-01-19T19:45:08.786-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:45:08.786-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:45:08.788-0800] {processor.py:755} WARNING - No viable dags retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:45:08.805-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.044 seconds
+[2024-01-19T19:45:56.385-0800] {processor.py:153} INFO - Started process (PID=11115) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:45:56.389-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-01-19T19:45:56.394-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:45:56.393-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:45:56.397-0800] {processor.py:755} WARNING - No viable dags retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:45:56.415-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.037 seconds
+[2024-01-19T19:46:42.967-0800] {processor.py:153} INFO - Started process (PID=11157) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:46:42.969-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-01-19T19:46:42.970-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:46:42.970-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:46:42.971-0800] {processor.py:755} WARNING - No viable dags retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:46:42.982-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.019 seconds
+[2024-01-19T19:47:31.977-0800] {processor.py:153} INFO - Started process (PID=11203) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:47:32.006-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-01-19T19:47:32.009-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:47:32.008-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:47:32.014-0800] {processor.py:755} WARNING - No viable dags retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:47:32.040-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.069 seconds
+[2024-01-19T19:48:22.996-0800] {processor.py:153} INFO - Started process (PID=11246) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:48:22.998-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py for tasks to queue
+[2024-01-19T19:48:23.000-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:48:22.999-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:48:23.004-0800] {processor.py:755} WARNING - No viable dags retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py
+[2024-01-19T19:48:23.029-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/plugins/event_listener.py took 0.040 seconds

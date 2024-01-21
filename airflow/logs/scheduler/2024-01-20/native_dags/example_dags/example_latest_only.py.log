@@ -1,0 +1,88 @@
+[2024-01-19T19:38:10.292-0800] {processor.py:153} INFO - Started process (PID=10684) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:38:10.293-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-01-19T19:38:10.294-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:38:10.293-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:38:10.335-0800] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:38:10.493-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:38:10.492-0800] {manager.py:504} INFO - Created Permission View: can delete on DAG:latest_only
+[2024-01-19T19:38:10.518-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:38:10.517-0800] {manager.py:504} INFO - Created Permission View: can edit on DAG:latest_only
+[2024-01-19T19:38:10.536-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:38:10.536-0800] {manager.py:504} INFO - Created Permission View: can read on DAG:latest_only
+[2024-01-19T19:38:10.536-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:38:10.536-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:38:10.548-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:38:10.548-0800] {dag.py:2726} INFO - Creating ORM DAG for latest_only
+[2024-01-19T19:38:10.555-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:38:10.554-0800] {dag.py:3452} INFO - Setting next_dagrun for latest_only to 2024-01-19T23:38:10.554737+00:00, run_after=2024-01-20T03:38:10.554737+00:00
+[2024-01-19T19:38:10.588-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.299 seconds
+[2024-01-19T19:38:55.172-0800] {processor.py:153} INFO - Started process (PID=10730) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:38:55.174-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-01-19T19:38:55.174-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:38:55.174-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:38:55.185-0800] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:38:55.200-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:38:55.200-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:38:55.220-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:38:55.220-0800] {dag.py:3452} INFO - Setting next_dagrun for latest_only to 2024-01-19T23:38:55.218098+00:00, run_after=2024-01-20T03:38:55.218098+00:00
+[2024-01-19T19:38:55.257-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.088 seconds
+[2024-01-19T19:39:40.751-0800] {processor.py:153} INFO - Started process (PID=10790) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:39:40.757-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-01-19T19:39:40.759-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:39:40.759-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:39:40.894-0800] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:39:40.998-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:39:40.998-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:39:41.125-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:39:41.125-0800] {dag.py:3452} INFO - Setting next_dagrun for latest_only to 2024-01-19T23:39:41.123018+00:00, run_after=2024-01-20T03:39:41.123018+00:00
+[2024-01-19T19:39:41.162-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.445 seconds
+[2024-01-19T19:40:32.709-0800] {processor.py:153} INFO - Started process (PID=10841) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:40:32.736-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-01-19T19:40:32.738-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:40:32.737-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:40:32.755-0800] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:40:32.776-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:40:32.775-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:40:32.791-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:40:32.791-0800] {dag.py:3452} INFO - Setting next_dagrun for latest_only to 2024-01-19T23:40:32.791666+00:00, run_after=2024-01-20T03:40:32.791666+00:00
+[2024-01-19T19:40:32.826-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.123 seconds
+[2024-01-19T19:41:25.327-0800] {processor.py:153} INFO - Started process (PID=10887) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:41:25.330-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-01-19T19:41:25.331-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:41:25.331-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:41:25.349-0800] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:41:25.366-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:41:25.366-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:41:25.387-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:41:25.387-0800] {dag.py:3452} INFO - Setting next_dagrun for latest_only to 2024-01-19T23:41:25.386836+00:00, run_after=2024-01-20T03:41:25.386836+00:00
+[2024-01-19T19:41:25.420-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.099 seconds
+[2024-01-19T19:42:22.336-0800] {processor.py:153} INFO - Started process (PID=10937) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:42:22.345-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-01-19T19:42:22.347-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:42:22.346-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:42:22.368-0800] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:42:22.392-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:42:22.392-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:42:22.427-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:42:22.426-0800] {dag.py:3452} INFO - Setting next_dagrun for latest_only to 2024-01-19T23:42:22.426572+00:00, run_after=2024-01-20T03:42:22.426572+00:00
+[2024-01-19T19:42:22.506-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.177 seconds
+[2024-01-19T19:43:24.346-0800] {processor.py:153} INFO - Started process (PID=10988) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:43:24.373-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-01-19T19:43:24.375-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:43:24.375-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:43:24.433-0800] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:43:24.465-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:43:24.465-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:43:24.492-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:43:24.491-0800] {dag.py:3452} INFO - Setting next_dagrun for latest_only to 2024-01-19T23:43:24.491256+00:00, run_after=2024-01-20T03:43:24.491256+00:00
+[2024-01-19T19:43:24.538-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.197 seconds
+[2024-01-19T19:44:29.729-0800] {processor.py:153} INFO - Started process (PID=11045) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:44:29.731-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-01-19T19:44:29.732-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:44:29.732-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:44:29.749-0800] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:44:29.775-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:44:29.775-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:44:29.803-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:44:29.802-0800] {dag.py:3452} INFO - Setting next_dagrun for latest_only to 2024-01-19T23:44:29.802725+00:00, run_after=2024-01-20T03:44:29.802725+00:00
+[2024-01-19T19:44:29.836-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.111 seconds
+[2024-01-19T19:45:15.178-0800] {processor.py:153} INFO - Started process (PID=11087) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:45:15.181-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-01-19T19:45:15.181-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:45:15.181-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:45:15.197-0800] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:45:15.217-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:45:15.216-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:45:15.237-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:45:15.237-0800] {dag.py:3452} INFO - Setting next_dagrun for latest_only to 2024-01-19T23:45:15.237363+00:00, run_after=2024-01-20T03:45:15.237363+00:00
+[2024-01-19T19:45:15.265-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.090 seconds
+[2024-01-19T19:46:15.129-0800] {processor.py:153} INFO - Started process (PID=11131) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:46:15.131-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-01-19T19:46:15.131-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:46:15.131-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:46:15.143-0800] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:46:15.161-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:46:15.161-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:46:15.178-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:46:15.178-0800] {dag.py:3452} INFO - Setting next_dagrun for latest_only to 2024-01-19T23:46:15.178589+00:00, run_after=2024-01-20T03:46:15.178589+00:00
+[2024-01-19T19:46:15.213-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.087 seconds
+[2024-01-19T19:47:05.155-0800] {processor.py:153} INFO - Started process (PID=11177) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:47:05.157-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-01-19T19:47:05.158-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:47:05.158-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:47:05.175-0800] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:47:05.197-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:47:05.196-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:47:05.219-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:47:05.219-0800] {dag.py:3452} INFO - Setting next_dagrun for latest_only to 2024-01-19T23:47:05.219275+00:00, run_after=2024-01-20T03:47:05.219275+00:00
+[2024-01-19T19:47:05.253-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.105 seconds
+[2024-01-19T19:47:51.736-0800] {processor.py:153} INFO - Started process (PID=11221) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:47:51.738-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py for tasks to queue
+[2024-01-19T19:47:51.740-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:47:51.739-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:47:51.764-0800] {processor.py:753} INFO - DAG(s) dict_keys(['latest_only']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py
+[2024-01-19T19:47:51.797-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:47:51.796-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:47:51.836-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:47:51.835-0800] {dag.py:3452} INFO - Setting next_dagrun for latest_only to 2024-01-19T23:47:51.835249+00:00, run_after=2024-01-20T03:47:51.835249+00:00
+[2024-01-19T19:47:51.879-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_latest_only.py took 0.149 seconds

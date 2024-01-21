@@ -1,0 +1,28 @@
+[2024-01-19T22:55:56.799-0800] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: executing_multiple_tasks.taskA scheduled__2024-01-19T00:00:00+00:00 [queued]>
+[2024-01-19T22:55:56.828-0800] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: executing_multiple_tasks.taskA scheduled__2024-01-19T00:00:00+00:00 [queued]>
+[2024-01-19T22:55:56.829-0800] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2024-01-19T22:55:56.829-0800] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2024-01-19T22:55:56.829-0800] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2024-01-19T22:55:56.852-0800] {taskinstance.py:1309} INFO - Executing <Task(BashOperator): taskA> on 2024-01-19 00:00:00+00:00
+[2024-01-19T22:55:56.854-0800] {standard_task_runner.py:55} INFO - Started process 28028 to run task
+[2024-01-19T22:55:56.860-0800] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'executing_multiple_tasks', 'taskA', 'scheduled__2024-01-19T00:00:00+00:00', '--job-id', '10', '--raw', '--subdir', 'DAGS_FOLDER/execute_multiple_tasks.py', '--cfg-path', '/tmp/tmpyaehj873']
+[2024-01-19T22:55:56.864-0800] {standard_task_runner.py:83} INFO - Job 10: Subtask taskA
+[2024-01-19T22:55:56.934-0800] {task_command.py:389} INFO - Running <TaskInstance: executing_multiple_tasks.taskA scheduled__2024-01-19T00:00:00+00:00 [running]> on host Mittu.
+[2024-01-19T22:55:57.001-0800] {taskinstance.py:1516} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=madhu
+AIRFLOW_CTX_DAG_ID=executing_multiple_tasks
+AIRFLOW_CTX_TASK_ID=taskA
+AIRFLOW_CTX_EXECUTION_DATE=2024-01-19T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-01-19T00:00:00+00:00
+[2024-01-19T22:55:57.002-0800] {subprocess.py:63} INFO - Tmp dir root location: 
+ /tmp
+[2024-01-19T22:55:57.002-0800] {subprocess.py:75} INFO - Running command: ['/usr/bin/bash', '-c', 'echo TASK A has executed!']
+[2024-01-19T22:55:57.006-0800] {subprocess.py:86} INFO - Output:
+[2024-01-19T22:55:57.007-0800] {subprocess.py:93} INFO - TASK A has executed!
+[2024-01-19T22:55:57.008-0800] {subprocess.py:97} INFO - Command exited with return code 0
+[2024-01-19T22:55:57.052-0800] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=executing_multiple_tasks, task_id=taskA, execution_date=20240119T000000, start_date=20240120T065556, end_date=20240120T065557
+[2024-01-19T22:55:57.112-0800] {local_task_job.py:212} INFO - Task exited with return code 0
+[2024-01-19T22:55:57.124-0800] {taskinstance.py:2596} INFO - 1 downstream tasks scheduled from follow-on schedule check

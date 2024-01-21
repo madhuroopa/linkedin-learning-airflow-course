@@ -1,0 +1,116 @@
+[2024-01-19T19:37:37.565-0800] {processor.py:153} INFO - Started process (PID=10632) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:37:37.566-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-19T19:37:37.566-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:37:37.566-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:37:37.590-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:37:37.735-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:37:37.735-0800] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_trigger_target_dag
+[2024-01-19T19:37:37.755-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:37:37.755-0800] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_trigger_target_dag
+[2024-01-19T19:37:37.774-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:37:37.773-0800] {manager.py:504} INFO - Created Permission View: can read on DAG:example_trigger_target_dag
+[2024-01-19T19:37:37.775-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:37:37.774-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:37:37.787-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:37:37.787-0800] {dag.py:2726} INFO - Creating ORM DAG for example_trigger_target_dag
+[2024-01-19T19:37:37.795-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:37:37.795-0800] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-19T19:37:37.826-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.263 seconds
+[2024-01-19T19:38:24.198-0800] {processor.py:153} INFO - Started process (PID=10698) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:38:24.220-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-19T19:38:24.220-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:38:24.220-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:38:24.239-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:38:24.256-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:38:24.256-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:38:24.273-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:38:24.273-0800] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-19T19:38:24.307-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.111 seconds
+[2024-01-19T19:39:08.537-0800] {processor.py:153} INFO - Started process (PID=10749) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:39:08.539-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-19T19:39:08.540-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:39:08.540-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:39:08.572-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:39:08.597-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:39:08.597-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:39:08.618-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:39:08.618-0800] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-19T19:39:08.651-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.119 seconds
+[2024-01-19T19:39:55.301-0800] {processor.py:153} INFO - Started process (PID=10806) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:39:55.329-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-19T19:39:55.330-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:39:55.330-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:39:55.349-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:39:55.364-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:39:55.364-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:39:55.380-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:39:55.379-0800] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-19T19:39:55.411-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.112 seconds
+[2024-01-19T19:40:40.590-0800] {processor.py:153} INFO - Started process (PID=10849) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:40:40.592-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-19T19:40:40.593-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:40:40.592-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:40:40.616-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:40:40.633-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:40:40.633-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:40:40.652-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:40:40.652-0800] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-19T19:40:40.680-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.093 seconds
+[2024-01-19T19:41:30.661-0800] {processor.py:153} INFO - Started process (PID=10893) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:41:30.690-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-19T19:41:30.690-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:41:30.690-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:41:30.717-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:41:30.740-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:41:30.739-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:41:30.765-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:41:30.765-0800] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-19T19:41:30.796-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.139 seconds
+[2024-01-19T19:42:11.283-0800] {processor.py:153} INFO - Started process (PID=10926) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:42:11.307-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-19T19:42:11.310-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:42:11.309-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:42:11.393-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:42:11.438-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:42:11.437-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:42:11.481-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:42:11.480-0800] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-19T19:42:11.531-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.255 seconds
+[2024-01-19T19:42:51.903-0800] {processor.py:153} INFO - Started process (PID=10960) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:42:51.907-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-19T19:42:51.909-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:42:51.908-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:42:51.949-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:42:51.985-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:42:51.985-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:42:52.022-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:42:52.021-0800] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-19T19:42:52.064-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.165 seconds
+[2024-01-19T19:43:31.587-0800] {processor.py:153} INFO - Started process (PID=10994) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:43:31.589-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-19T19:43:31.590-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:43:31.590-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:43:31.625-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:43:31.649-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:43:31.648-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:43:31.673-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:43:31.673-0800] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-19T19:43:31.716-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.135 seconds
+[2024-01-19T19:44:17.626-0800] {processor.py:153} INFO - Started process (PID=11032) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:44:17.628-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-19T19:44:17.629-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:44:17.629-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:44:17.662-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:44:17.724-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:44:17.724-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:44:17.772-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:44:17.770-0800] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-19T19:44:17.816-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.194 seconds
+[2024-01-19T19:44:50.660-0800] {processor.py:153} INFO - Started process (PID=11065) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:44:50.661-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-19T19:44:50.662-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:44:50.662-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:44:50.687-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:44:50.709-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:44:50.709-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:44:50.731-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:44:50.730-0800] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-19T19:44:50.770-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.113 seconds
+[2024-01-19T19:45:48.726-0800] {processor.py:153} INFO - Started process (PID=11108) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:45:48.743-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-19T19:45:48.745-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:45:48.745-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:45:48.858-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:45:48.912-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:45:48.911-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:45:48.970-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:45:48.970-0800] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-19T19:45:49.037-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.328 seconds
+[2024-01-19T19:46:34.932-0800] {processor.py:153} INFO - Started process (PID=11150) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:46:34.968-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-19T19:46:34.969-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:46:34.969-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:46:34.994-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:46:35.014-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:46:35.013-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:46:35.036-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:46:35.036-0800] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-19T19:46:35.068-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.140 seconds
+[2024-01-19T19:47:10.943-0800] {processor.py:153} INFO - Started process (PID=11183) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:47:10.980-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-19T19:47:10.981-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:47:10.980-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:47:11.007-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:47:11.028-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:47:11.028-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:47:11.050-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:47:11.050-0800] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-19T19:47:11.080-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.145 seconds
+[2024-01-19T19:47:55.748-0800] {processor.py:153} INFO - Started process (PID=11225) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:47:55.752-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-19T19:47:55.754-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:47:55.753-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:47:55.815-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:47:55.859-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:47:55.859-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:47:55.906-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:47:55.906-0800] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-19T19:47:55.960-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.224 seconds
+[2024-01-19T19:48:33.566-0800] {processor.py:153} INFO - Started process (PID=11256) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:48:33.567-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py for tasks to queue
+[2024-01-19T19:48:33.569-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:48:33.568-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:48:33.604-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_trigger_target_dag']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py
+[2024-01-19T19:48:33.634-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:48:33.634-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:48:33.660-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:48:33.660-0800] {dag.py:3452} INFO - Setting next_dagrun for example_trigger_target_dag to None, run_after=None
+[2024-01-19T19:48:33.701-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_trigger_target_dag.py took 0.140 seconds

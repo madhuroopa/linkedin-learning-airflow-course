@@ -1,0 +1,43 @@
+[2024-01-20T14:26:40.835-0800] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: python_pipeline.grouped_by_region manual__2024-01-20T22:26:31.791430+00:00 [queued]>
+[2024-01-20T14:26:40.864-0800] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: python_pipeline.grouped_by_region manual__2024-01-20T22:26:31.791430+00:00 [queued]>
+[2024-01-20T14:26:40.864-0800] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2024-01-20T14:26:40.864-0800] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2024-01-20T14:26:40.864-0800] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2024-01-20T14:26:40.884-0800] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): grouped_by_region> on 2024-01-20 22:26:31.791430+00:00
+[2024-01-20T14:26:40.886-0800] {standard_task_runner.py:55} INFO - Started process 21082 to run task
+[2024-01-20T14:26:40.889-0800] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'python_pipeline', 'grouped_by_region', 'manual__2024-01-20T22:26:31.791430+00:00', '--job-id', '62', '--raw', '--subdir', 'DAGS_FOLDER/executing_python_pipeline.py', '--cfg-path', '/tmp/tmp3w37dy1k']
+[2024-01-20T14:26:40.890-0800] {standard_task_runner.py:83} INFO - Job 62: Subtask grouped_by_region
+[2024-01-20T14:26:40.937-0800] {task_command.py:389} INFO - Running <TaskInstance: python_pipeline.grouped_by_region manual__2024-01-20T22:26:31.791430+00:00 [running]> on host Mittu.
+[2024-01-20T14:26:40.998-0800] {taskinstance.py:1516} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=madhu
+AIRFLOW_CTX_DAG_ID=python_pipeline
+AIRFLOW_CTX_TASK_ID=grouped_by_region
+AIRFLOW_CTX_EXECUTION_DATE=2024-01-20T22:26:31.791430+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-01-20T22:26:31.791430+00:00
+[2024-01-20T14:26:41.006-0800] {logging_mixin.py:137} WARNING - /home/mirukulla/airflow/dags/executing_python_pipeline.py:35 FutureWarning: Passing literal json to 'read_json' is deprecated and will be removed in a future version. To read from a literal string, wrap it in a 'StringIO' object.
+[2024-01-20T14:26:41.023-0800] {taskinstance.py:1776} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/mirukulla/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/mirukulla/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/mirukulla/airflow/dags/executing_python_pipeline.py", line 41, in groupby_region
+    region_df.to_csv('/home/mirukulla/airflow/output/grouped_by_region.csv',index=False)
+  File "/home/mirukulla/.local/lib/python3.10/site-packages/pandas/util/_decorators.py", line 333, in wrapper
+    return func(*args, **kwargs)
+  File "/home/mirukulla/.local/lib/python3.10/site-packages/pandas/core/generic.py", line 3961, in to_csv
+    return DataFrameRenderer(formatter).to_csv(
+  File "/home/mirukulla/.local/lib/python3.10/site-packages/pandas/io/formats/format.py", line 1014, in to_csv
+    csv_formatter.save()
+  File "/home/mirukulla/.local/lib/python3.10/site-packages/pandas/io/formats/csvs.py", line 251, in save
+    with get_handle(
+  File "/home/mirukulla/.local/lib/python3.10/site-packages/pandas/io/common.py", line 873, in get_handle
+    handle = open(
+PermissionError: [Errno 13] Permission denied: '/home/mirukulla/airflow/output/grouped_by_region.csv'
+[2024-01-20T14:26:41.028-0800] {taskinstance.py:1327} INFO - Marking task as FAILED. dag_id=python_pipeline, task_id=grouped_by_region, execution_date=20240120T222631, start_date=20240120T222640, end_date=20240120T222641
+[2024-01-20T14:26:41.046-0800] {standard_task_runner.py:100} ERROR - Failed to execute job 62 for task grouped_by_region ([Errno 13] Permission denied: '/home/mirukulla/airflow/output/grouped_by_region.csv'; 21082)
+[2024-01-20T14:26:41.062-0800] {local_task_job.py:212} INFO - Task exited with return code 1
+[2024-01-20T14:26:41.072-0800] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check

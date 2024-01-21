@@ -1,0 +1,102 @@
+[2024-01-19T19:37:45.187-0800] {processor.py:153} INFO - Started process (PID=10639) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:37:45.187-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-01-19T19:37:45.188-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:37:45.188-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:37:45.203-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:37:45.327-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:37:45.327-0800] {manager.py:504} INFO - Created Permission View: can delete on DAG:example_task_group
+[2024-01-19T19:37:45.345-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:37:45.345-0800] {manager.py:504} INFO - Created Permission View: can edit on DAG:example_task_group
+[2024-01-19T19:37:45.364-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:37:45.363-0800] {manager.py:504} INFO - Created Permission View: can read on DAG:example_task_group
+[2024-01-19T19:37:45.364-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:37:45.364-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:37:45.374-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:37:45.374-0800] {dag.py:2726} INFO - Creating ORM DAG for example_task_group
+[2024-01-19T19:37:45.386-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:37:45.386-0800] {dag.py:3452} INFO - Setting next_dagrun for example_task_group to 2024-01-19T03:37:45.386266+00:00, run_after=2024-01-20T03:37:45.386266+00:00
+[2024-01-19T19:37:45.449-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.265 seconds
+[2024-01-19T19:38:30.595-0800] {processor.py:153} INFO - Started process (PID=10705) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:38:30.597-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-01-19T19:38:30.597-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:38:30.597-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:38:30.615-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:38:30.632-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:38:30.632-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:38:30.649-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:38:30.649-0800] {dag.py:3452} INFO - Setting next_dagrun for example_task_group to 2024-01-19T03:38:30.649140+00:00, run_after=2024-01-20T03:38:30.649140+00:00
+[2024-01-19T19:38:30.695-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.104 seconds
+[2024-01-19T19:39:15.937-0800] {processor.py:153} INFO - Started process (PID=10756) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:39:15.939-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-01-19T19:39:15.940-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:39:15.940-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:39:15.959-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:39:15.982-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:39:15.982-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:39:16.004-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:39:16.004-0800] {dag.py:3452} INFO - Setting next_dagrun for example_task_group to 2024-01-19T03:39:16.003893+00:00, run_after=2024-01-20T03:39:16.003893+00:00
+[2024-01-19T19:39:16.036-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.103 seconds
+[2024-01-19T19:40:02.081-0800] {processor.py:153} INFO - Started process (PID=10813) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:40:02.107-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-01-19T19:40:02.110-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:40:02.109-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:40:02.152-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:40:02.196-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:40:02.195-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:40:02.236-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:40:02.236-0800] {dag.py:3452} INFO - Setting next_dagrun for example_task_group to 2024-01-19T03:40:02.236561+00:00, run_after=2024-01-20T03:40:02.236561+00:00
+[2024-01-19T19:40:02.281-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.204 seconds
+[2024-01-19T19:40:48.901-0800] {processor.py:153} INFO - Started process (PID=10856) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:40:48.903-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-01-19T19:40:48.904-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:40:48.904-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:40:48.920-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:40:48.939-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:40:48.939-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:40:48.958-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:40:48.958-0800] {dag.py:3452} INFO - Setting next_dagrun for example_task_group to 2024-01-19T03:40:48.957818+00:00, run_after=2024-01-20T03:40:48.957818+00:00
+[2024-01-19T19:40:48.989-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.091 seconds
+[2024-01-19T19:41:40.208-0800] {processor.py:153} INFO - Started process (PID=10900) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:41:40.212-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-01-19T19:41:40.220-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:41:40.220-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:41:40.417-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:41:40.477-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:41:40.477-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:41:40.529-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:41:40.528-0800] {dag.py:3452} INFO - Setting next_dagrun for example_task_group to 2024-01-19T03:41:40.528119+00:00, run_after=2024-01-20T03:41:40.528119+00:00
+[2024-01-19T19:41:40.720-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.519 seconds
+[2024-01-19T19:42:38.982-0800] {processor.py:153} INFO - Started process (PID=10949) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:42:38.986-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-01-19T19:42:38.989-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:42:38.988-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:42:39.051-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:42:39.125-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:42:39.123-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:42:39.224-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:42:39.224-0800] {dag.py:3452} INFO - Setting next_dagrun for example_task_group to 2024-01-19T03:42:39.223202+00:00, run_after=2024-01-20T03:42:39.223202+00:00
+[2024-01-19T19:42:39.382-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.408 seconds
+[2024-01-19T19:43:19.995-0800] {processor.py:153} INFO - Started process (PID=10984) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:43:19.997-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-01-19T19:43:19.997-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:43:19.997-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:43:20.019-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:43:20.044-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:43:20.044-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:43:20.118-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:43:20.118-0800] {dag.py:3452} INFO - Setting next_dagrun for example_task_group to 2024-01-19T03:43:20.118352+00:00, run_after=2024-01-20T03:43:20.118352+00:00
+[2024-01-19T19:43:20.161-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.169 seconds
+[2024-01-19T19:44:01.990-0800] {processor.py:153} INFO - Started process (PID=11018) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:44:01.992-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-01-19T19:44:01.993-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:44:01.993-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:44:02.022-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:44:02.065-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:44:02.064-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:44:02.113-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:44:02.113-0800] {dag.py:3452} INFO - Setting next_dagrun for example_task_group to 2024-01-19T03:44:02.112571+00:00, run_after=2024-01-20T03:44:02.112571+00:00
+[2024-01-19T19:44:02.185-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.198 seconds
+[2024-01-19T19:44:42.825-0800] {processor.py:153} INFO - Started process (PID=11057) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:44:42.847-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-01-19T19:44:42.848-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:44:42.847-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:44:42.868-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:44:42.892-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:44:42.892-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:44:42.913-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:44:42.913-0800] {dag.py:3452} INFO - Setting next_dagrun for example_task_group to 2024-01-19T03:44:42.913209+00:00, run_after=2024-01-20T03:44:42.913209+00:00
+[2024-01-19T19:44:42.948-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.129 seconds
+[2024-01-19T19:45:27.027-0800] {processor.py:153} INFO - Started process (PID=11098) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:45:27.032-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-01-19T19:45:27.035-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:45:27.034-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:45:27.098-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:45:27.223-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:45:27.222-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:45:27.311-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:45:27.311-0800] {dag.py:3452} INFO - Setting next_dagrun for example_task_group to 2024-01-19T03:45:27.310757+00:00, run_after=2024-01-20T03:45:27.310757+00:00
+[2024-01-19T19:45:27.424-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.412 seconds
+[2024-01-19T19:46:25.023-0800] {processor.py:153} INFO - Started process (PID=11141) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:46:25.047-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-01-19T19:46:25.048-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:46:25.048-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:46:25.065-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:46:25.087-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:46:25.086-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:46:25.105-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:46:25.105-0800] {dag.py:3452} INFO - Setting next_dagrun for example_task_group to 2024-01-19T03:46:25.105023+00:00, run_after=2024-01-20T03:46:25.105023+00:00
+[2024-01-19T19:46:25.134-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.115 seconds
+[2024-01-19T19:47:13.965-0800] {processor.py:153} INFO - Started process (PID=11186) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:47:13.966-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-01-19T19:47:13.967-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:47:13.967-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:47:13.987-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:47:14.009-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:47:14.009-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:47:14.031-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:47:14.031-0800] {dag.py:3452} INFO - Setting next_dagrun for example_task_group to 2024-01-19T03:47:14.031311+00:00, run_after=2024-01-20T03:47:14.031311+00:00
+[2024-01-19T19:47:14.064-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.102 seconds
+[2024-01-19T19:47:59.375-0800] {processor.py:153} INFO - Started process (PID=11228) to work on /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:47:59.377-0800] {processor.py:743} INFO - Processing file /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py for tasks to queue
+[2024-01-19T19:47:59.380-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:47:59.379-0800] {dagbag.py:532} INFO - Filling up the DagBag from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:47:59.424-0800] {processor.py:753} INFO - DAG(s) dict_keys(['example_task_group']) retrieved from /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py
+[2024-01-19T19:47:59.507-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:47:59.506-0800] {dag.py:2705} INFO - Sync 1 DAGs
+[2024-01-19T19:47:59.620-0800] {logging_mixin.py:137} INFO - [2024-01-19T19:47:59.619-0800] {dag.py:3452} INFO - Setting next_dagrun for example_task_group to 2024-01-19T03:47:59.618947+00:00, run_after=2024-01-20T03:47:59.618947+00:00
+[2024-01-19T19:47:59.681-0800] {processor.py:175} INFO - Processing /home/mirukulla/.local/lib/python3.10/site-packages/airflow/example_dags/example_task_group.py took 0.319 seconds

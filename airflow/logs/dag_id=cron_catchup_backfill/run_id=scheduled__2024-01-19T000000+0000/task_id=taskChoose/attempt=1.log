@@ -1,0 +1,23 @@
+[2024-01-21T11:56:24.955-0800] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: cron_catchup_backfill.taskChoose scheduled__2024-01-19T00:00:00+00:00 [queued]>
+[2024-01-21T11:56:24.970-0800] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: cron_catchup_backfill.taskChoose scheduled__2024-01-19T00:00:00+00:00 [queued]>
+[2024-01-21T11:56:24.971-0800] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2024-01-21T11:56:24.971-0800] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2024-01-21T11:56:24.971-0800] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2024-01-21T11:56:25.003-0800] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): taskChoose> on 2024-01-19 00:00:00+00:00
+[2024-01-21T11:56:25.008-0800] {standard_task_runner.py:55} INFO - Started process 547 to run task
+[2024-01-21T11:56:25.014-0800] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'cron_catchup_backfill', 'taskChoose', 'scheduled__2024-01-19T00:00:00+00:00', '--job-id', '107', '--raw', '--subdir', 'DAGS_FOLDER/executing_cron_catchup_backfill.py', '--cfg-path', '/tmp/tmpfkh89i8x']
+[2024-01-21T11:56:25.016-0800] {standard_task_runner.py:83} INFO - Job 107: Subtask taskChoose
+[2024-01-21T11:56:25.104-0800] {task_command.py:389} INFO - Running <TaskInstance: cron_catchup_backfill.taskChoose scheduled__2024-01-19T00:00:00+00:00 [running]> on host Mittu.
+[2024-01-21T11:56:25.214-0800] {taskinstance.py:1516} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=madhu
+AIRFLOW_CTX_DAG_ID=cron_catchup_backfill
+AIRFLOW_CTX_TASK_ID=taskChoose
+AIRFLOW_CTX_EXECUTION_DATE=2024-01-19T00:00:00+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2024-01-19T00:00:00+00:00
+[2024-01-21T11:56:25.215-0800] {python.py:177} INFO - Done. Returned value was: True
+[2024-01-21T11:56:25.242-0800] {taskinstance.py:1327} INFO - Marking task as SUCCESS. dag_id=cron_catchup_backfill, task_id=taskChoose, execution_date=20240119T000000, start_date=20240121T195624, end_date=20240121T195625
+[2024-01-21T11:56:25.309-0800] {local_task_job.py:212} INFO - Task exited with return code 0
+[2024-01-21T11:56:25.363-0800] {taskinstance.py:2596} INFO - 1 downstream tasks scheduled from follow-on schedule check

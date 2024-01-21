@@ -1,0 +1,42 @@
+[2024-01-20T14:13:18.455-0800] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=non-requeueable deps ti=<TaskInstance: python_pipeline.grouped_by_smoker manual__2024-01-20T22:13:10.218077+00:00 [queued]>
+[2024-01-20T14:13:18.465-0800] {taskinstance.py:1090} INFO - Dependencies all met for dep_context=requeueable deps ti=<TaskInstance: python_pipeline.grouped_by_smoker manual__2024-01-20T22:13:10.218077+00:00 [queued]>
+[2024-01-20T14:13:18.466-0800] {taskinstance.py:1288} INFO - 
+--------------------------------------------------------------------------------
+[2024-01-20T14:13:18.466-0800] {taskinstance.py:1289} INFO - Starting attempt 1 of 1
+[2024-01-20T14:13:18.466-0800] {taskinstance.py:1290} INFO - 
+--------------------------------------------------------------------------------
+[2024-01-20T14:13:18.487-0800] {taskinstance.py:1309} INFO - Executing <Task(PythonOperator): grouped_by_smoker> on 2024-01-20 22:13:10.218077+00:00
+[2024-01-20T14:13:18.489-0800] {standard_task_runner.py:55} INFO - Started process 19491 to run task
+[2024-01-20T14:13:18.492-0800] {standard_task_runner.py:82} INFO - Running: ['airflow', 'tasks', 'run', 'python_pipeline', 'grouped_by_smoker', 'manual__2024-01-20T22:13:10.218077+00:00', '--job-id', '49', '--raw', '--subdir', 'DAGS_FOLDER/executing_python_pipeline.py', '--cfg-path', '/tmp/tmpd3ygn8cx']
+[2024-01-20T14:13:18.494-0800] {standard_task_runner.py:83} INFO - Job 49: Subtask grouped_by_smoker
+[2024-01-20T14:13:18.547-0800] {task_command.py:389} INFO - Running <TaskInstance: python_pipeline.grouped_by_smoker manual__2024-01-20T22:13:10.218077+00:00 [running]> on host Mittu.
+[2024-01-20T14:13:18.621-0800] {taskinstance.py:1516} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=madhu
+AIRFLOW_CTX_DAG_ID=python_pipeline
+AIRFLOW_CTX_TASK_ID=grouped_by_smoker
+AIRFLOW_CTX_EXECUTION_DATE=2024-01-20T22:13:10.218077+00:00
+AIRFLOW_CTX_TRY_NUMBER=1
+AIRFLOW_CTX_DAG_RUN_ID=manual__2024-01-20T22:13:10.218077+00:00
+[2024-01-20T14:13:18.631-0800] {taskinstance.py:1776} ERROR - Task failed with exception
+Traceback (most recent call last):
+  File "/home/mirukulla/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 175, in execute
+    return_value = self.execute_callable()
+  File "/home/mirukulla/.local/lib/python3.10/site-packages/airflow/operators/python.py", line 192, in execute_callable
+    return self.python_callable(*self.op_args, **self.op_kwargs)
+  File "/home/mirukulla/airflow/dags/executing_python_pipeline.py", line 26, in groupby_smoke
+    df = pd.read_json(json_data)
+  File "/home/mirukulla/.local/lib/python3.10/site-packages/pandas/io/json/_json.py", line 791, in read_json
+    json_reader = JsonReader(
+  File "/home/mirukulla/.local/lib/python3.10/site-packages/pandas/io/json/_json.py", line 904, in __init__
+    data = self._get_data_from_filepath(filepath_or_buffer)
+  File "/home/mirukulla/.local/lib/python3.10/site-packages/pandas/io/json/_json.py", line 944, in _get_data_from_filepath
+    self.handles = get_handle(
+  File "/home/mirukulla/.local/lib/python3.10/site-packages/pandas/io/common.py", line 728, in get_handle
+    ioargs = _get_filepath_or_buffer(
+  File "/home/mirukulla/.local/lib/python3.10/site-packages/pandas/io/common.py", line 472, in _get_filepath_or_buffer
+    raise ValueError(msg)
+ValueError: Invalid file path or buffer object type: <class 'NoneType'>
+[2024-01-20T14:13:18.637-0800] {taskinstance.py:1327} INFO - Marking task as FAILED. dag_id=python_pipeline, task_id=grouped_by_smoker, execution_date=20240120T221310, start_date=20240120T221318, end_date=20240120T221318
+[2024-01-20T14:13:18.659-0800] {standard_task_runner.py:100} ERROR - Failed to execute job 49 for task grouped_by_smoker (Invalid file path or buffer object type: <class 'NoneType'>; 19491)
+[2024-01-20T14:13:18.665-0800] {local_task_job.py:212} INFO - Task exited with return code 1
+[2024-01-20T14:13:18.689-0800] {taskinstance.py:2596} INFO - 0 downstream tasks scheduled from follow-on schedule check
